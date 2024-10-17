@@ -11,6 +11,10 @@
     color: #ffffff;
     font-size: 2.5vh;
 }
+a{
+  text-decoration:none;
+  color: #ffffff;
+}
 body{
     background-color: var(--primary-rgb);
     font-family: 'Courier New', Courier, monospace;
@@ -60,10 +64,10 @@ nav>a{
     margin-left: auto;
     margin-right: auto;
     color: white;
-    padding: 5%;
+    padding: 3% 5%;
     text-align:left;
     background-color: var(--secondary-rgb);
-    margin-top: 10px;
+    margin: 10px auto;
     border-radius: 32px 24px 32px 24px;
 }
 .textos{
@@ -105,10 +109,15 @@ img{
     border-radius: 100%;
     content: '';
 }
+#a{
+   margin-left: 55%;
+   font-size: 3vh;
+
+}
 #logoprincipal{
     background-image: url(steam_verde_binaria.jpeg);
     background-size: cover;
-    margin-left: auto;
+    margin-left: 1%;
     margin-right: 20px;
 }
 .Idade{
@@ -140,7 +149,19 @@ img{
     justify-content: center;
     align-items: center;
 }
-
+#titleForm {
+  font-size: 6vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: fit-content;
+}
+label, input{
+  color: #000;
+}
+label{
+  font-size: 3.7vh;
+}
 .tile{
   width: 13.55em;
   border: 3px solid rgb(var(--main-bg-color) /45%);

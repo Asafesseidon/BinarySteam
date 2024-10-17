@@ -73,6 +73,8 @@ function nav(res){
   res.write('<nav> <a href="principal.html">Home</a>');
   res.write('<a href="cadastrar_jogo.html">Cadastrar</a>');
   res.write('<disable>Loja</disable></nav>');
+  res.write('<div id="a"><a href="principal.html">BinarySteam</a></div>')
+  res.write('<div class="img" id="logoprincipal"></div>');
 }
 function conteudo(res){
   res.write('<div class="container-fluid mt-1">');
